@@ -21,7 +21,6 @@
 // decode panel
 @property (assign) IBOutlet NSTextField *decodePasscode;
 @property (assign) IBOutlet NSTextView *decodedMessage;
-@property (assign) IBOutlet NSImageView *encodedImageView;
 
 - (IBAction)encodeClick:(id)sender;
 - (IBAction)generatePasscode:(id)sender;
