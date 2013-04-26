@@ -1,3 +1,3 @@
 StegOSX
 =======
-Providing Secure Communication with Plausible Deniability
+Providing Secure Communications with Plausible Deniability
