@@ -70,7 +70,7 @@
         NSString *encodedImageFile = [[panel URL] path];
         
         // call outguess to encode image
-        NSString *outguess = [NSString stringWithFormat:@"StegOSX.app/Contents/Resources/outguess -k \"%@\" -d \"%@\" -e \"%@\" \"%@\"", self.passcode.stringValue, messageTempFile, sourceImageTempFile, encodedImageFile];
+        NSString *outguess = [NSString stringWithFormat:@"%@ -k \"%@\" -d \"%@\" -e \"%@\" \"%@\"", [[NSBundle mainBundle] pathForResource:@"outguess" ofType:nil], self.passcode.stringValue, messageTempFile, sourceImageTempFile, encodedImageFile];
         system([outguess cStringUsingEncoding:NSUTF8StringEncoding]);
     }
     
@@ -104,7 +104,7 @@
         NSString *encodedImageFile = [[panel URL] path];
         
         // call outguess to encode image
-        NSString *outguess = [NSString stringWithFormat:@"StegOSX.app/Contents/Resources/outguess -k \"%@\" -e -r \"%@\" \"%@\"", self.decodePasscode.stringValue, encodedImageFile, messageTempFile];
+        NSString *outguess = [NSString stringWithFormat:@"%@ -k \"%@\" -e -r \"%@\" \"%@\"", [[NSBundle mainBundle] pathForResource:@"outguess" ofType:nil], self.decodePasscode.stringValue, encodedImageFile, messageTempFile];
         system([outguess cStringUsingEncoding:NSUTF8StringEncoding]);
     }
     
