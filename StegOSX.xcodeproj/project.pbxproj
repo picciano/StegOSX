@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42F40D1172AC57D008614CC /* icons.iconset in Resources */ = {isa = PBXBuildFile; fileRef = E42F40D0172AC57D008614CC /* icons.iconset */; };
 		E4AFB4401728779C00D23DD6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AFB43F1728779C00D23DD6 /* Cocoa.framework */; };
 		E4AFB44A1728779C00D23DD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4AFB4481728779C00D23DD6 /* InfoPlist.strings */; };
 		E4AFB44C1728779C00D23DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AFB44B1728779C00D23DD6 /* main.m */; };
@@ -16,10 +17,10 @@
 		E4AFB45E17287C0100D23DD6 /* outguess in Resources */ = {isa = PBXBuildFile; fileRef = E4AFB45D17287C0100D23DD6 /* outguess */; };
 		E4AFB46017287CA000D23DD6 /* outguess manual.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4AFB45F17287CA000D23DD6 /* outguess manual.txt */; };
 		E4AFB463172890E300D23DD6 /* PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AFB462172890E300D23DD6 /* PasswordGenerator.m */; };
-		E4D458801729904100241CE9 /* icons.iconset in Resources */ = {isa = PBXBuildFile; fileRef = E4D4587F1729904100241CE9 /* icons.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E42F40D0172AC57D008614CC /* icons.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icons.iconset; sourceTree = "<group>"; };
 		E4AFB43C1728779C00D23DD6 /* StegOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StegOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AFB43F1728779C00D23DD6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E4AFB4421728779C00D23DD6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -37,7 +38,6 @@
 		E4AFB45F17287CA000D23DD6 /* outguess manual.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "outguess manual.txt"; sourceTree = "<group>"; };
 		E4AFB461172890E300D23DD6 /* PasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordGenerator.h; sourceTree = "<group>"; };
 		E4AFB462172890E300D23DD6 /* PasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordGenerator.m; sourceTree = "<group>"; };
-		E4D4587F1729904100241CE9 /* icons.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icons.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 		E4AFB4331728779C00D23DD6 = {
 			isa = PBXGroup;
 			children = (
-				E4D4587F1729904100241CE9 /* icons.iconset */,
+				E42F40D0172AC57D008614CC /* icons.iconset */,
 				E4AFB4451728779C00D23DD6 /* StegOSX */,
 				E4AFB43E1728779C00D23DD6 /* Frameworks */,
 				E4AFB43D1728779C00D23DD6 /* Products */,
@@ -180,7 +180,7 @@
 				E4AFB4561728779C00D23DD6 /* MainMenu.xib in Resources */,
 				E4AFB45E17287C0100D23DD6 /* outguess in Resources */,
 				E4AFB46017287CA000D23DD6 /* outguess manual.txt in Resources */,
-				E4D458801729904100241CE9 /* icons.iconset in Resources */,
+				E42F40D1172AC57D008614CC /* icons.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
